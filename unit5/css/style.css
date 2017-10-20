@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Kameron|Open+Sans|Roboto');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 16px;
+}
+header {
+	padding: 20px;
+	background-color: #FFED74;
+	border: 1px solid black;
+}
+figure {
+	padding: 20px;
+	background-color: #E89C6C;
+	border: 1px solid black;
+}
+section {
+	padding: 20px;
+	background-color: #FFE2B8;
+	border: 1px solid black;
+}
+h1 {
+	color: #13902F;
+	text-align: left;
+	float: left;
+	padding-left: 25px;
+	font-family: 'Roberto';
+	font-size: 2.25em;
+}
+h2 {
+	font-family: 'Fira Sans Bold';
+	font-size: 2.25em;
+}
+p {
+	font-family: 'Fira Sans', serif;
+	font-size: 1.5em;
+}
+nav {
+	text-align: center;
+	padding: 20px;
+	background-color: #E8C66A;
+	border: 1px solid black;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+nav a {
+	font-family: 'Fira Sans', serif;
+	font-size: 1.5em;
+	margin-right: 50px;
+	text-decoration: none;
+	padding: 0 2em;
+	color: white;
+	background: #000;
+}
+section {
+	padding: 15px;
+}
+footer {
+	padding: 20px;
+	background-color: #FF957E;
+	border: 1px solid black;
+}
+.wrapper {
+	padding: 20px;
+	background-color: #FFE2B8;
+	border: 1px solid black;
+}
+#accountbar {
+	text-align: right;
+	float: right;
+	padding-right: 25px;
+}
+#slogan {
+	font-style: italic;
+	text-align: right;
+	height: 600px;
+	background-image: url("https://smhttp-ssl-39255.nexcesscdn.net/wp-content/uploads/2016/04/Spanish-cedar-separators-keep-cigars-separated2016-1339x1500.jpg");
+	background-size: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#contact {
+	display: block;
+	text-align: center;
+}
