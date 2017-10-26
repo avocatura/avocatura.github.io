@@ -9,12 +9,12 @@ body {
 	line-height: 1.5em;
 }
 header {
-	padding: 20px;
+	padding: 17.5px;
 	border-bottom: 1px solid black;
 	overflow: auto;
 }
 h1 {
-	color: #000;
+	color: #13902F;
 	text-align: left;
 	float: left;
 	padding-left: 25px;
@@ -35,7 +35,7 @@ p {
 }
 nav {
 	text-align: center;
-	padding: 20px;
+	padding: 12.5px;
 	border: 1px solid black;
 }
 a {
@@ -72,6 +72,14 @@ footer p {
 }
 .wrapper {
 }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 #accountbar {
 	text-align: right;
 	float: right;
@@ -90,25 +98,17 @@ footer p {
 #two_column {
 	background-color: #ffb7cf;
 	border: 1px solid black;
-	padding: 20px;
 }
 #hero_image {
-	width: 600px;
-	padding: 20px 100px 0;
+	padding: 20px;
 	float: left;
-	width: 40%;
+	width: 50%;
+	background-color: #ffb7cf;
 }
 #action {
+	background-color: #ffb7cf;
 	font-size: 3em;
 	padding: 20px;
 	float: right;
 	width: 40%;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
 }
