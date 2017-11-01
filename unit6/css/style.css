@@ -6,7 +6,6 @@
 }
 body {
 	font-size: 16px;
-	line-height: 1.5em;
 }
 header {
 	padding: 17.5px;
@@ -14,20 +13,25 @@ header {
 	overflow: auto;
 }
 h1 {
-	color: #13902F;
+	color: #2B3273;
 	text-align: left;
 	float: left;
 	padding-left: 25px;
-	font-family: 'Roberto';
+	font-family: 'Roborto';
 	font-size: 2.25em;
+}
+h2 {
+	font-family: 'Fira Sans Bold';
+	font-size: 2.25em;
+	color: #2B3273;
 }
 figure {
 	padding: 20px;
 	border: 1px solid black;
 }
-h2 {
-	font-family: 'Fira Sans Bold';
-	font-size: 2.25em;
+h5 {
+	font-family: 'Fira Sans', serif;
+	font-size: 1em;
 }
 p {
 	font-family: 'Fira Sans', serif;
@@ -52,11 +56,13 @@ nav a {
 main {
 	border-top: 1px solid black;
 	padding: 20px;
+	background-color: #F2EBD6;
 }
 footer {
 	padding: 30px;
-	background-color: #d3d3d3;
+	background-color: #F2F2F1;
 	border: 1px solid black;
+	text-align: center; 
 }
 footer a {
 	font-family: 'Fira Sans', serif;
@@ -80,6 +86,32 @@ footer p {
     clear: both;
     height: 0;
 }
+.search {
+	float: left;
+	overflow: hidden;
+	border: 1px solid black;
+	padding: 5px;
+}
+.search input[type="text"] {
+		font: 'Fira Sans', serif;
+		font-size: 16px;
+		border: 0px;
+		padding: 
+}
+.product_tile {
+	display: inline-block;
+	margin: 15px;
+	text-align: center;
+}
+.product_tile img {
+	border: 2px solid black;
+}
+.product_tile a {
+	display: block;
+	margin-bottom: 10px;
+	font-family: 'Fira Sans';
+	font-size: 1.25em;
+}
 #accountbar {
 	text-align: right;
 	float: right;
@@ -94,21 +126,21 @@ footer p {
 #accountbar a:hover {
 	text-decoration: underline;
 }
-
-#two_column {
-	background-color: #ffb7cf;
-	border: 1px solid black;
+#two-images {
+	background-color: #F2F2F1;
 }
 #hero_image {
 	padding: 20px;
 	float: left;
 	width: 50%;
-	background-color: #ffb7cf;
 }
 #action {
-	background-color: #ffb7cf;
 	font-size: 3em;
 	padding: 20px;
 	float: right;
 	width: 40%;
+}
+#product_grid {
+	margin: 20px 0;
+	text-align: center;
 }
