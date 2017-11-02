@@ -9,11 +9,10 @@ body {
 }
 header {
 	padding: 17.5px;
-	border-bottom: 1px solid black;
 	overflow: auto;
 }
 h1 {
-	color: #2B3273;
+	color: #263670;
 	text-align: left;
 	float: left;
 	padding-left: 25px;
@@ -23,11 +22,10 @@ h1 {
 h2 {
 	font-family: 'Fira Sans Bold';
 	font-size: 2.25em;
-	color: #2B3273;
+	color: #263670;
 }
 figure {
 	padding: 20px;
-	border: 1px solid black;
 }
 h5 {
 	font-family: 'Fira Sans', serif;
@@ -40,7 +38,8 @@ p {
 nav {
 	text-align: center;
 	padding: 12.5px;
-	border: 1px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 a {
 	color: inherit;
@@ -54,14 +53,15 @@ nav a {
 	margin: 0 2em;
 }
 main {
-	border-top: 1px solid black;
 	padding: 20px;
 	background-color: #F2EBD6;
+	border-top: 1px solid black;
 }
 footer {
 	padding: 30px;
 	background-color: #F2F2F1;
-	border: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	text-align: center; 
 }
 footer a {
@@ -77,6 +77,7 @@ footer p {
 	font-size: 1em;
 }
 .wrapper {
+	max-width: 2000px;
 }
 .clearfix:after {
     visibility: hidden;
@@ -105,12 +106,17 @@ footer p {
 }
 .product_tile img {
 	border: 2px solid black;
+	max-width: 250;
 }
 .product_tile a {
 	display: block;
 	margin-bottom: 10px;
 	font-family: 'Fira Sans';
 	font-size: 1.25em;
+	width: 250px;
+}
+.product_tile a:hover {
+	text-decoration: underline;
 }
 #accountbar {
 	text-align: right;
