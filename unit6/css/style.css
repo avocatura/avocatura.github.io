@@ -17,15 +17,18 @@ h1 {
 	float: left;
 	padding-left: 25px;
 	font-family: 'Roborto';
+	font-weight: bold;
 	font-size: 2.25em;
 }
 h2 {
 	font-family: 'Fira Sans Bold';
 	font-size: 2.25em;
+	font-weight: bold;
 	color: #263670;
 }
 figure {
 	padding: 20px;
+	background-color: #49706B;
 }
 h5 {
 	font-family: 'Fira Sans', serif;
@@ -54,7 +57,7 @@ nav a {
 }
 main {
 	padding: 20px;
-	background-color: #F2EBD6;
+	background-color: #FFF;
 	border-top: 1px solid black;
 }
 footer {
@@ -105,7 +108,7 @@ footer p {
 	text-align: center;
 }
 .product_tile img {
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	max-width: 250;
 }
 .product_tile a {
@@ -120,14 +123,15 @@ footer p {
 }
 #accountbar {
 	text-align: right;
+	display: block;
 	float: right;
 	padding-right: 25px;
 	margin-top: 7px;
 	font-family: 'Fira Sans', serif;
-	font-size: 1.25em;
+	font-size: 1em;
 }
 #accountbar a {
-	padding: 0 10px;
+	margin: 0 10px;
 }
 #accountbar a:hover {
 	text-decoration: underline;
