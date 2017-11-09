@@ -14,22 +14,26 @@ h1 {
 	font-weight: bold;
 	font-size: 2.25em;
 	float: left;
-	padding-left: 1em;
+	padding-left: 25px;
 }
 h2 {
+	color: #000;
 	font-size: 4em;
 	font-weight: bold;
-	text-align: center;
 	font-variant: small-caps;
-	letter-spacing: .05em;
+	text-align: center;
+	letter-spacing: .05em
 }
 hr {
 	width: 15%;
 	margin: 2em auto;
 	text-align: center;
 }
+h3 {
+	font-size: 1.5em;
+}
 p {
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 a {
 	color: inherit;
@@ -42,29 +46,33 @@ header {
 	padding: 1em;
 	overflow: auto;
 }
+figure {
+	padding: 1em;
+	background-color: #116466;
+}
+figure a {
+	font-size: 2.25em;
+	font-weight: bold;
+}
 nav {
 	text-align: center;
 	padding: .5em;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
+
 nav a {
 	font-size: 2em;
 	text-decoration: none;
 	font-variant: small-caps;
 	margin: 0 1.5em;
 }
-figure {
-	padding: 1em;
-	background-color: #49706B;
-}
-figure a {
-	font-size: 2.25em;
-	font-weight: bold;
-	color: #263670;
+aside {
+	display: block;
+	padding: 20px 30px;
 }
 footer {
-	padding: 1.5em;
+	padding: 2em;
 	background-color: #F2F2F1;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
@@ -98,7 +106,7 @@ footer p {
 	overflow: hidden;
 	border: 1px solid black;
 	padding: .25em;
-	margin: 0 .5em;
+	margin: 0 .75em;
 }
 .search_term {
 	font-size: 1em;
@@ -116,11 +124,6 @@ footer p {
 .main_section {
 	margin-top: 2em;
 }
-.product_grid {
-	margin: 1em auto;
-	text-align: center;
-	width: 80%;
-}
 .product_tile {
 	display: inline-block;
 	margin: 1em;
@@ -136,16 +139,21 @@ footer p {
 	font-size: 1.25em;
 	width: 250px;
 }
+.product_grid {
+	margin: 20px auto;
+	text-align: center;
+	width: 80%;
+}
 #accountbar {
 	text-align: right;
 	display: block;
 	float: right;
-	padding-right: 1em;
+	margin-right: 1em;
 	margin-top: .4em;
 }
 #accountbar a {
-	margin: 0 .5em;
 	display: inline-block;
+	margin: 0 .5em;
 	padding-top: .4em;
 }
 #accountbar a:hover {
@@ -153,23 +161,16 @@ footer p {
 }
 #hero_image {
 	float: left;
-	display: block;
-	float: left;
-	width: 725px;
+	padding-top: 20px;
+	padding-left: 300px;
+	width: 100%;
+	width: 300px;
 }
-#cta {
+#call_to_action {
+	font-size: 4em;
+	padding: 1em;
+	margin-top: 100px;
 	float: left;
-	display: block;
-	font-size: 5em;
-	float: right;
 	width: 40%;
-	margin-top: 2em;
-}
-#about_us {
-	text-align: center;
-	margin-bottom: 3em;
 }
 
-@media only screen and (max-width: 950px) {
-
-}
