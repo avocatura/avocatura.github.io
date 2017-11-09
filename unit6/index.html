@@ -14,81 +14,92 @@
 			<div id="accountbar">
 				<div class="search">
 					<form>
-                    	<input type="text" placeholder="Search..." required>
-                        <i class="fa fa-search" aria-hidden="true"></i>
+                    	<input type="text" placeholder="Search..." required class="search_term">
+                        <button type="submit" class="search_button">
+        				<i class="fa fa-search" aria-hidden="true"></i>
+     					</button>
 					</form>
 				</div>
 				<a href="#"><i class="fa fa-user" aria-hidden="true"></i> My Account</a>
 				<a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shopping Bag (0)</a>
 	    	</div>
 		</header>
+
 		<nav>
-			<a href="#">Lighters</a>
-			<a href="#">Cutters</a>
-			<a href="#">Ashtrays</a>
-			<a href="#">Humidors</a>
-			<a href="#">Pipes</a>
+			<a href="#">lighters</a>
+			<a href="#">cutters</a>
+			<a href="#">ashtrays</a>
+			<a href="#">humidors</a>
+			<a href="#">pipes</a>
 		</nav>
-		<figure>
-			<section id="two-column" class="clearfix">
-				<img id="hero_image" src="https://smhttp-ssl-39255.nexcesscdn.net/wp-content/uploads/2016/04/Spanish-cedar-separators-keep-cigars-separated2016-1339x1500.jpg" alt="Humidor" title="Spanish Cedar Humidor">
-				<h2 id="action">Shop Humidors</h2>
-			</section>
+
+		<figure class="clearfix">
+				<img id="hero_image" src="images/humidor.png" alt="Humidor" title="Spanish Cedar Humidor">
+				<a href="#" id="cta">Shop Humidors</a>
 		</figure>
+
 		<main>
-			
-			<h2 style="text-align:center;">Popoular Products</h2>
+			<div class="main_section">
+				<h2>popoular products</h2>
 
-			<section id="product_grid">
-				<div class="product_tile">
-					<a href="#"><img src="images/pipe.jpg" alt="Pipe Image" title="Oak Pipe"></a>
-					<a href="#">Oak Pipe</a>
-					<h5>$70.00</h5>
-				</div>
-				<div class="product_tile">
-					<a href="#"><img src="images/cutter.jpg" alt="Cutter Image" title="Stainless Steel Cigar Cutter"></a>
-					<a href="#">Stainless Steel Cigar Cutter</a>
-					<h5>$130.00</h5>
-				</div>
-				<div class="product_tile">
-					<a href="#"><img src="images/lighter.jpg" alt="Lighter Image" title="Turbo Jet Lighter"></a>
-					<a href="#">Turbo Jet Lighter</a>
-					<h5>$80.00</h5>
-				</div>
-				<div class="product_tile">
-					<a href="#"><img src="images/lighter2.jpg" alt"Lighter Image" title="Traditional Flint Lighter"></a>
-					<a href="#">Traditional Flint Lighter</a>
-					<h5>$80.00</h5>
-				</div>
-				<div class="product_tile">
-					<a href="#"><img src="images/lighter3.jpg" alt="Lighter Image" title="Dupont Lighter"></a>
-					<a href="#">Dupont Lighter</a>
-					<h5>$120.00</h5>
-				</div>
-				<div class="product_tile">
-					<a href="#"><img src="images/cutter2.jpg" alt="Cutter Image" title="Xikar Mayan Stainless Steel Cutter"></a>
-						<a href="#">Xiar Mayan Stainless Steel Cutter</a>
-						<h5>$250.00</h5>
-					</div>
-				<div class="product_tile">
-					<a href="#"><img src="images/tablecutter.jpg" alt="Table Cutter Image" title="Quad Stainless Steel Table Cutter"></a>
-						<a href="#">Quad Stainless Steel Table Cutter</a>
-						<h5>$250.00</h5>
-					</div>
-				<div class="product_tile">
-					<a href="#"><img src="images/cutter3.jpg" alt="Cutter Image" title="Gold Guillotine Blade Cigar Cutter"></a>
-					<a href="#">Gold Guillotine Blade Cigar Cutter</a>
-					<h5>$280.00</h5>
-				</div>
-			</section>
+				<hr>
 
+				<section class="product_grid">
+					<div class="product_tile">
+						<a href="#"><img src="images/pipe.jpg" alt="Pipe Image" title="Oak Pipe"></a>
+						<a href="#">Oak Pipe</a>
+						<h5>$70.00</h5>
+					</div>
+					<div class="product_tile">
+						<a href="#"><img src="images/cutter.jpg" alt="Cutter Image" title="Stainless Steel Cigar Cutter"></a>
+						<a href="#">Stainless Steel Cigar Cutter</a>
+						<h5>$130.00</h5>
+					</div>
+					<div class="product_tile">
+						<a href="#"><img src="images/lighter.jpg" alt="Lighter Image" title="Turbo Jet Lighter"></a>
+						<a href="#">Turbo Jet Lighter</a>
+						<h5>$80.00</h5>
+					</div>
+					<div class="product_tile">
+						<a href="#"><img src="images/lighter2.jpg" alt"Lighter Image" title="Traditional Flint Lighter"></a>
+						<a href="#">Traditional Flint Lighter</a>
+						<h5>$80.00</h5>
+					</div>
+					<div class="product_tile">
+						<a href="#"><img src="images/lighter3.jpg" alt="Lighter Image" title="Dupont Lighter"></a>
+						<a href="#">Dupont Lighter</a>
+						<h5>$120.00</h5>
+					</div>
+					<div class="product_tile">
+						<a href="#"><img src="images/cutter2.jpg" alt="Cutter Image" title="Xikar Mayan Stainless Steel Cutter"></a>
+							<a href="#">Xiar Mayan Stainless Steel Cutter</a>
+							<h5>$250.00</h5>
+						</div>
+					<div class="product_tile">
+						<a href="#"><img src="images/tablecutter.jpg" alt="Table Cutter Image" title="Quad Stainless Steel Table Cutter"></a>
+							<a href="#">Quad Stainless Steel Table Cutter</a>
+							<h5>$250.00</h5>
+						</div>
+					<div class="product_tile">
+						<a href="#"><img src="images/cutter3.jpg" alt="Cutter Image" title="Gold Guillotine Blade Cigar Cutter"></a>
+						<a href="#">Gold Guillotine Blade Cigar Cutter</a>
+						<h5>$280.00</h5>
+					</div>
+				</section>
+			</div>
+			<div class="main_section">
+				<h2>about us</h2>
+				<hr>
+			</div>
 		</main>
+
 		<footer>
 				<p>&copy; 2017 Mike's Cigar Products. All rights reserved.</p>
 				<a href="#">Terms and Conditions</a>
 				<a href="#">Privacy Policy</a>
 				<a href="mailto:Mike@gmail.com">Contact Us</a>
 		</footer>
+
 	</div>
 	</body>
 </html>
