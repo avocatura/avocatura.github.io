@@ -27,7 +27,11 @@
 					</form>
 				</div>
 		</header>
-
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
 		<nav>
 			<a href="#">lighters</a>
 			<a href="#">cutters</a>
@@ -99,4 +103,22 @@
 
 	</div>
 	</body>
+	<script type="text/javascript">
+		// when the user clicks the hamburger icon
+		// toggle the display state of the navigation
+
+		var hamburger = document.querySelector('.hamburger');
+		var nav = document.querySelector('nav');
+
+		function toggleNav() {
+			nav.classList.toggle('open');
+		
+		}
+
+		hamburger.addEventListener('click', toggleNav);
+
+
+
+
+	</script>
 </html>
