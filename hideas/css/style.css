@@ -173,4 +173,8 @@ footer p {
 	float: left;
 	width: 40%;
 }
+#about_us {
+	text-align: center;
+	margin-bottom: 3em;
+}
 
