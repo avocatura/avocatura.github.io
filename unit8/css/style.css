@@ -252,8 +252,13 @@ footer p {
 		font-size: 16px;
 	}
 
-	header {
+	h1 {
+		font-size: 2em
 
+	}
+
+	#hero_text {
+		font-size: 2em;
 	}
 
 	.product_tile {
