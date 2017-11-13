@@ -25,7 +25,7 @@ h2 {
 	letter-spacing: .05em
 }
 hr {
-	width: 15%;
+	width: 20%;
 	margin: 2em auto;
 	text-align: center;
 }
@@ -148,11 +148,17 @@ footer p {
 	display: inline-block;
 	text-align: center;
 }
+.product_grid {
+	margin: 1em auto;
+	text-align: center;
+	width: 80%;
+}
 .product_tile {
 	display: inline-block;
 	margin: 1em;
 	text-align: center;
 	vertical-align: top;
+	width: 20%;
 }
 .product_tile img {
 	max-width: 250;
@@ -162,23 +168,17 @@ footer p {
 	display: block;
 	margin-bottom: .75em;
 	font-size: 1.25em;
-	width: 250px;
-}
-.product_grid {
-	margin: 20px auto;
-	text-align: center;
-	width: 80%;
 }
 #hero_image {
 	float: left;
-	padding-top: 20px;
-	padding-left: 20em;
+	margin-top: 1em;
+	margin-left: 20em;
 	width: 20%;
 }
 #hero_text {
 	font-size: 4em;
 	padding: 1em;
-	margin-top: 1.5em;
+	margin-top: 1em;
 	float: right;
 	width: 40%;
 	color: #D1E8E2;
@@ -195,15 +195,35 @@ footer p {
 	}
 
 	nav a {
-		margin: 0 1em;
+		margin: 0 .5em;
 	}
 
-	.product_tile {
-		width: 30%;
+	#hero_image {
+		margin-left: 10em;
 	}
 
 	#hero_text {
 		font-size: 4em;
+	}
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.product_tile {
+		width: 40%;
+
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	.account_text {
+		display: none !important;
+	}
+	.account_bar a {
+		font-size: 1.5em;
+		margin: 0 .5em; 
 	}
 
 }
