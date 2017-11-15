@@ -155,14 +155,15 @@ footer p {
 	float: left;
 	display: block;
 	float: left;
-	width: 60%;
+	width: 50%;
+	margin-left: 5em;
 }
 #hero_text {
 	float: left;
 	display: block;
 	width: 40%;
 	max-width: 554px;
-	margin-top: 1.5em;
+	margin-top: 1em;
 	font-size: 5em;
 	font-weight: bold;
 	color: #D1E8E2;
@@ -202,7 +203,7 @@ footer p {
 
 }
 
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 730px) {
 
 	body {
 		font-size: 12px;
@@ -217,6 +218,10 @@ footer p {
 		margin: 0 .5em; 
 	}
 
+	#hero_image {
+		margin-left: 2em;
+	}
+
 	.hamburger {
 		display: block;
 	}
@@ -227,11 +232,6 @@ footer p {
 
 	.open {
 		display: block;
-	}
-
-	.product_grid {
-		width: 100%;
-	}
 }
 
 @media only screen and (max-width: 615px) {
@@ -243,6 +243,10 @@ footer p {
 	footer a {
 		display: block;
 		margin-top: .5em;
+	}
+
+	#hero_text {
+		font-size: 3em;
 	}
 }
 
@@ -261,7 +265,15 @@ footer p {
 		font-size: 2em;
 	}
 
-	.product_tile {
+	#hero_image {
+		margin-left: 0;
+	}
+
+	.product_grid {
 		width: 100%;
+	}
+
+	.product_tile {
+		width: 40%
 	}
 }
