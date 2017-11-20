@@ -237,6 +237,7 @@ footer p {
 	.hamburger {
 		display: block;
 		float: left;
+		margin-left: .5em;
 	}
 
 	nav {
@@ -272,6 +273,10 @@ footer p {
 
 	#hero_image {
 		margin-left: 0;
+	}
+
+	#hero_text {
+		margin-top: .5em;
 	}
 
 	.product_grid {
