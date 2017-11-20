@@ -58,6 +58,9 @@ figure {
 	padding: 1em;
 	background-color: #49706B;
 }
+main {
+	margin-top: 2em;
+}
 footer {
 	padding: 1.5em;
 	background-color: #F2F2F1;
@@ -137,9 +140,6 @@ footer p {
 	width: 1.5em;
 	background-color: black;
 	margin: .25em;
-}
-.main_section {
-	margin-top: 2em;
 }
 .product_grid {
 	margin: 1em auto;
