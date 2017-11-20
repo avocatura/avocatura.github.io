@@ -132,7 +132,6 @@ footer p {
 }
 .hamburger {
 	display: none;
-	margin-top: .7em;
 }
 .hamburger span {
 	display: block;
@@ -174,7 +173,7 @@ footer p {
 	display: block;
 	width: 40%;
 	max-width: 554px;
-	margin-top: 1em;
+	margin-top: 7%;
 	font-size: 5em;
 	font-weight: bold;
 	color: #D1E8E2;
@@ -237,7 +236,7 @@ footer p {
 	.hamburger {
 		display: block;
 		float: left;
-		margin-left: .5em;
+		padding: .75em .5em 0;
 	}
 
 	nav {
@@ -255,7 +254,16 @@ footer p {
 	}
 
 	.search {
+		position: absolute;
+		left: 50%;
+		-webkit-transform:translatex(-50%);
+		-moz-transform:translatex(-50%);
+		-o-transform:translatex(-50%);
+		transform:translatex(-50%);
+	}
 
+	.search_term {
+		padding-right: 10px;
 	}
 
 	footer a {
@@ -268,7 +276,7 @@ footer p {
 	}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 415px) {
 	
 
 	#hero_image {
