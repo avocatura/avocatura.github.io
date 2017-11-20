@@ -127,6 +127,17 @@ footer p {
 .account_text {
 	margin-right: 1em;
 }
+.hamburger {
+	display: none;
+	margin-top: .7em;
+}
+.hamburger span {
+	display: block;
+	height: 2px;
+	width: 1.5em;
+	background-color: black;
+	margin: .25em;
+}
 .main_section {
 	margin-top: 2em;
 }
@@ -169,19 +180,6 @@ footer p {
 	color: #D1E8E2;
 }
 
-.hamburger {
-	display: none;
-}
-
-.hamburger span {
-	display: block;
-	height: 2px;
-	width: 30px;
-	background-color: black;
-	margin: 2px 0;
-}
-
-
 
 @media only screen and (max-width: 960px) {
 
@@ -191,6 +189,16 @@ footer p {
 
 	nav a {
 		margin: 0 1em;
+	}
+
+	.account_text {
+		display: none !important;
+	}
+
+	.account_bar a {
+		font-size: 1.5em;
+		margin: 0 .5em; 
+		padding-top: .2em;
 	}
 
 	.product_tile {
@@ -209,35 +217,44 @@ footer p {
 		font-size: 12px;
 	}
 
-	.account_text {
-		display: none !important;
-	}
-
-	.account_bar a {
-		font-size: 1.5em;
-		margin: 0 .5em; 
-	}
-
 	#hero_image {
 		margin-left: 2em;
+	}
+}
+
+@media only screen and (max-width: 615px) {
+
+	h1 {
+		float: none;
+		margin: auto 0;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 3em;
 	}
 
 	.hamburger {
 		display: block;
+		float: left;
 	}
 
 	nav {
 		display: none;
 	}
 
-	.open {
-		display: block;
-}
-
-@media only screen and (max-width: 615px) {
-
 	nav a {
 		display: block;
+		padding: 2px;
+		margin: none;
+	}
+
+	.open {
+		display: block;
+	}
+
+	.search {
+
 	}
 
 	footer a {
@@ -251,19 +268,7 @@ footer p {
 }
 
 @media only screen and (max-width: 400px) {
-
-	body {
-		font-size: 16px;
-	}
-
-	h1 {
-		font-size: 2em
-
-	}
-
-	#hero_text {
-		font-size: 2em;
-	}
+	
 
 	#hero_image {
 		margin-left: 0;
